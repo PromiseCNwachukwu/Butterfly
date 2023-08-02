@@ -1,0 +1,140 @@
+/*This is the CSS file for Butterfly website
+
+*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+
+h1
+h2
+h3
+h4
+h5
+h6{
+    /* font-family: "Doris", sans-serif; */
+    font-family: sans-serif;
+}
+    
+/* .nav{
+    position: fixed;
+    background-color: #fff;
+    /* width: 100%; */
+/* } */
+.navigation{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    
+}
+
+.navbar {
+    display: flex;
+    /* border: 1px solid blue; */
+    width: 100%;
+    font-size: 30px;
+    position: fixed;
+    background-color: white;
+}
+.navbar img{
+    /* border: 1px solid green; */
+    /* width: 50%; */
+    /* height: 50px; */
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+    padding: 110px;  
+    font-size: 20px;
+    /* border: 1px solid red ; */
+}
+
+.navitems ul{
+    display: inline-flex;
+    /* padding: 10px; */
+    /* border: 1px solid purple; */
+    font-size: 10px;
+    margin-left: 500px;
+    margin-top: 15px;
+   
+}
+
+.navitems ul li{
+    padding: 10px;
+    list-style: none
+}
+
+.navitems a{
+    text-decoration: none;
+    transition: 0.9s;
+    font-size: 15px;
+    color: #444444
+    ;
+}
+
+.navitems a:hover{
+    color: #76c7ed;
+}
+.welcome{
+    /* border: 1px solid yellow; */
+    height: 1000px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(245, 245, 240);
+}
+
+.welcome-container{
+    /* border: 1px solid red; */
+    width: 40%;
+    margin-left: 30px;
+    margin-top: 65px;
+   
+}
+
+.welcome-container h2{
+    padding-top: 100px;
+    font-family: "Dosis" sans-serif;
+    font-size: 40px;
+    color: #444444;
+}
+.welcome-container2{
+    /* border: 1px solid black; */
+    width: 60%;
+    margin-top: 65px;
+}
+
+.welcome-container2 img{
+    height: 300px;
+    /* border: 1px solid orange; */
+    margin: 60px;
+    margin-left: 80px;
+}
+
+.welcome-container p{
+    color: #0f394c;
+    
+}
+
+.getstarted button{
+    /* border: 1px solid blue; */
+    height: 30px;
+    width: 100px;
+    background-color: #49b5e7;
+    border-radius: 3px;
+    
+
+}
+
+.getstarted a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.getstarted button:hover{
+    background-color: #76c7ed;
+}
